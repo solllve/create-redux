@@ -2,7 +2,8 @@ import { TYPES } from './actions'
 
 const initialStates = {
   settings: {
-    notifications: true
+    notifications: true,
+    alerts: false
   }
 }
 
