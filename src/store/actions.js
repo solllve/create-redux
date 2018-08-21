@@ -1,6 +1,6 @@
-export function setAlert() {
+export function praiseCrom() {
   return {
-    type: "LAUNCH_ALERT",
-    alert: true
+    type: "PRAISE_CROM",
+    cromPraised: true
   }
 }

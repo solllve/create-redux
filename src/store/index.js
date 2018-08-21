@@ -1,14 +1,14 @@
-import { createStore} from "redux"
+import {createStore} from "redux"
 
 const reducer = (state={
-    alert: false
+    cromPraised: false
   }, action) => {
-    switch(action.type) {
-      case "LAUNCH_ALERT": {
-        return {
-          alert: action.alert
-        }
+  switch(action.type) {
+    case "PRAISE_CROM": {
+      return {
+        cromPraised: action.cromPraised
       }
+    }
   }
   return state
 }
