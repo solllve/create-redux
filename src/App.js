@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
-import './App.css'
-import NotificationsSwitch from './components/notifications-switch'
-import UserSettings from './components/user-settings'
+import {connect} from "react-redux"
 import AlertButton from './components/alert'
+import './App.css'
 
 class App extends Component {
   render () {
@@ -16,10 +15,6 @@ class App extends Component {
         <p className='App-intro'>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <hr />
-        <NotificationsSwitch />
-        <hr />
-        <UserSettings />
         <hr />
         <AlertButton />
       </div>
